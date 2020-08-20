@@ -1,0 +1,26 @@
+targetNamespace: ''
+cleanNamespace: true
+bucket:
+  prefixPath: "todo"
+  clean: true
+parameters: {}
+packages:
+  - name: todo
+    shared: false
+    clean: false
+    environment: {}
+    parameters: {}
+    annotations: {}
+    web: raw
+#    actions:
+#      - name: list
+#        runtime: 'php:default'
+#        web: raw
+#        webSecure: false
+#        annotations:
+#          raw-http: true
+#      - name: add
+#        web: raw
+#        webSecure: false
+#        annotations:
+#          raw-http: true

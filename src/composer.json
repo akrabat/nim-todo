@@ -1,0 +1,24 @@
+{
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Todo\\": "Todo/"
+    },
+    "classmap": [
+      {
+        "App\\Container": "AppContainer.php"
+      }
+    ]
+  },
+  "require": {
+    "ext-json": "*"
+    "league/fractal": "^0.17.0",
+    "pimple/pimple": "^3.2",
+    "predis/predis": "^1.1",
+  },
+  "require-dev": {
+  }
+}
